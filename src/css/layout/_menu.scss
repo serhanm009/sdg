@@ -1,0 +1,29 @@
+.menu{
+	&__list {
+		list-style-type: none;
+		padding: 0;
+		padding-top: 70px;
+	}
+	&__item {
+		text-transform: uppercase;
+		border-bottom: 1px solid #cccccc;
+		@include font($dpr, 16px , #333333 , 24px);
+		color: #cccccc;
+		padding: 18px 0;
+		&:hover {
+			color: #0068b3;
+		}
+
+	}
+	&__link {
+		&:hover {
+			text-decoration: none;
+			
+		}
+
+	}
+	.active {
+		color: #0068b3;
+	}
+
+}

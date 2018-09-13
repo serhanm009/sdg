@@ -1,0 +1,47 @@
+.qanunvericilik{
+	padding: 93px 0 135px 0;
+	&__title{
+		@include font($dpr, 36px , #0068b3 , 36px);
+		text-transform: uppercase;
+		padding-bottom: 52px;
+	}
+	&__subtitle{
+		@include font($dpr, 24px , #4c4c4c , 36px);
+		text-transform: uppercase;
+	}
+	&__line{
+		width: 40px;
+		height: 2px;
+		background-color: #0068b3;
+		margin: 30px 0 46px 0;
+	}
+	&__download {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		@include font($dpr, 16px , #666666 , 36px);
+		background-color: #f7f7f7;
+		padding: 15px 20px;
+		color: #666666;
+		margin-bottom: 8px;
+	}
+	&__downloadLast{
+		margin-bottom: 67px;
+	}
+
+
+	&__paragraph {
+		padding: 0;
+		margin: 0;
+	}
+	&__documentLink{
+		color: #666666;
+	}
+	&__downloadBtnLink{
+		color: #666666;
+	}
+	&__documentLink:hover{
+		text-decoration: none;
+		color: #0068b3;
+	}
+}

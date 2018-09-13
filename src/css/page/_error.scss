@@ -1,0 +1,28 @@
+.error{
+	padding: 88px 0;
+	&__box{
+		padding: 30px 70px 70px 70px;
+		box-shadow: 0px 0px 15.66px 2.34px rgba(34, 34, 34, 0.13);
+		text-align: center;
+	}
+	&__404{
+		@include font($dpr, 120px , #145478 );
+		margin-bottom: 20px;		
+		@include respondmax(sm){
+			font-size: 100px;
+		}
+	}
+	&__title {
+		@include font($dpr, 23px , #145478 , 16px);
+		margin-bottom: 49px;
+		@include respondmax(sm){
+			font-size: 18px;
+		}
+
+	}
+	&__text {
+		@include font($dpr, 16px , #666666 , 20px);
+	}
+}
+
+

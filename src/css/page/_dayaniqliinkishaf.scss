@@ -1,0 +1,19 @@
+.dayaniqliinkishaf{
+	padding: 90px 0;
+	&__img{
+		display: block;
+		margin:0 auto 70px;
+	}
+	&__text{
+		@include font($dpr, 16px , #4c4c4c, 24px);
+		text-align: justify;
+		margin-bottom: 60px;
+	}
+	&__imgs{
+		margin: 0 30px 30px 0; 
+		@include respondmax(md){
+			margin: 10px auto;
+			display: block;
+		}
+	}
+}

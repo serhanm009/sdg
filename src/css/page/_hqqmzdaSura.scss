@@ -1,0 +1,38 @@
+.hqqmzdaSura{
+	padding: 90px 0;
+	&__title{
+		@include font($dpr, 30px , #4c4c4c, 28px);
+		padding:60px 0 45px 0;
+	}
+	.card-image{
+		@include respondmax(md){
+			background-color: #f8f8f8;
+		}
+	}
+	.card {
+		margin-bottom: 20px;
+		@include respondmax(sm){
+			display: block;
+			text-align: center;
+			border: none;
+		}
+	}
+	.card-block {
+		padding: 25px 0 20px 40px;
+		background-color: #f8f8f8;
+		width: 100%;
+	}
+	.card-text {
+		@include font($dpr, 16px , #808080, 24px);
+	}
+	.card-last {
+		width: 40%;
+		text-align: center;
+
+		padding-top: 39px;
+		background-color: #f1f1f1;
+		@include respondmax(sm){
+			width: 100%;
+		}
+	}
+}

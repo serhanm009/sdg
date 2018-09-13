@@ -1,0 +1,29 @@
+.form{
+		margin-top: 10px;
+		&__input{
+			width: 100%;
+			margin-top: 60px;
+			border-left: 0;
+			border-top: 0;
+			border-right: 0;
+			padding: 20px 0;
+			&:focus{
+				outline: none;
+			}
+			&--top{
+				margin-top: 20px;
+			}
+		}
+		&__textarea{
+			width: 100%;
+			margin-top: 60px;
+			border-left: 0;
+			border-top: 0;
+			border-right: 0;
+			padding: 20px 0;
+			border-bottom: 1px solid #cccccc;
+			&:focus{
+				outline: none;
+			}
+		}
+	}

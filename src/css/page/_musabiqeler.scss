@@ -1,0 +1,22 @@
+.musabiqeler{
+	padding: 93px 0 135px 0;
+	&__title{
+		@include font($dpr, 36px , #0068b3 , 36px);
+		text-transform: uppercase;
+		padding-bottom: 52px;
+	}
+	&__subtitle{
+		@include font($dpr, 24px , #4c4c4c , 36px);
+		text-transform: uppercase;
+	}
+	&__text{
+		@include font($dpr, 16px , #333 , 24px);
+		text-align: justify;
+	}
+	&__line{
+		width: 40px;
+		height: 2px;
+		background-color: #0068b3;
+		margin: 30px 0;
+	}
+}

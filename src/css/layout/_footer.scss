@@ -1,0 +1,122 @@
+.footer{
+	&__sep {
+		display: flex;
+		align-items:center;
+	}
+	&__line{
+		width: 536px;
+		height: 1px;
+		background-color: #cccccc;
+	}
+	&__sepBoxes {
+		display: flex;
+		justify-content:center;
+
+		margin: 0 20px;
+
+	}
+	&__sepBox{
+		width: 10px;
+		height: 10px;
+		background-color: #0068b3;
+		margin: 0 6px 0 6px;
+
+	}
+	&__nav{
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__navItem {
+		
+	}
+	&__navTitle{
+		@include font($dpr, 20px , #666666 , 36px);
+	}
+	&__navLine{
+		width: 40px;
+		height: 2px;
+		background-color: #0068b3;
+	}
+	&__links{
+		padding:0;
+		list-style-type: none;
+		margin-top: 23px;
+	}
+	&__link {
+		@include font($dprC, 14px , #666666 , 36px);
+		text-decoration: none;
+	}
+	&__link:hover {
+		
+		text-decoration: none;
+	}
+	&__linksItem{
+
+
+	}
+	&__bottom {
+		@include respondmax(md){
+			display: none;
+		}
+		
+		
+		margin-top: 30px;
+	}
+	&__img {
+
+	}
+	.sitemap {
+		@include respondmax(sm){
+			
+			text-align: center;
+			flex-direction:column;
+		}
+		margin-top: 60px;
+		display: flex;
+		justify-content: space-between;
+		&__link{
+			@include font($dprC, 12px , #666666 , 18px);
+			&--forum{
+				display: block;
+			}
+		}
+		&__right{
+			@include respondmax(sm){
+				margin: 20px 0;
+			}
+		}
+	}
+
+	.socials{
+		display:flex;
+		list-style-type: none;
+		margin: 30px 0;
+		justify-content:center;
+		&__item {
+			margin-right: 14px;
+		}
+	}
+
+	&__mobile{
+		@include font($dpr, 16px , #0068b3 , 18px);
+		
+		margin-top: 30px;
+		text-align: center;
+		display: none;
+		@include respondmax(md){
+			display: block;
+		}
+	}
+	&__mobileContact{
+
+	}
+	&__mobileContactFirst{
+		margin-left: 5px;
+	}
+	&__mobileLocation {
+		display: flex;
+	}
+
+}
+

@@ -1,0 +1,60 @@
+.contact {
+
+	&__content{
+		position: relative;
+		top: -260px;
+		background-color: white;
+		border-radius: 8px;
+		box-shadow:  0 15px 30px rgba(0,0,0,.15);
+		@include respondmax(lg){
+			padding: 0 40px 40px 40px;
+		}
+	}
+	&__btn {
+		font-size: 16px;
+		display: flex;
+		border: none;
+		border-radius: 30px;
+		padding: 15px 30px;
+		background-color: #0068b3;
+		color: white;
+		margin: 75px 0 113px;
+		&:hover {
+			cursor: pointer;
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+	&__btnIcon{
+		margin-left: 10px;
+	}
+	&__contentTitle {
+		margin:70px 0; 
+	}
+	&__information {
+		padding: 40px 0 40px 40px;
+		background-color: #04365b;
+		color: white;
+		font-size: 16px;
+		height: 332px;
+	}
+	&__location{
+		display: flex;
+		align-items: baseline;
+	}
+	&__locationParagraph{
+		margin-left: 18px;
+		padding-right:100px; 
+	}
+	&__socials {
+		list-style-type: none;
+		display: flex;
+		padding: 0;
+	}
+	&__socialsItem{
+		margin-right: 12px;
+		color: white;
+
+	}
+}

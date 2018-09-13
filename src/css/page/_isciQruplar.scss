@@ -1,0 +1,46 @@
+.isciQruplar {
+	&__menu{
+		margin-top: 66px;
+	}
+	table {
+		margin-bottom: 50px;
+
+	}
+	caption {
+		@include font($dpr, 24px , #4c4c4c , 20px);
+		margin-bottom: 34px;
+
+	}
+
+	table thead tr th {
+		background-color: #8daed3;
+		border: 5px solid white;
+		border-radius: 5px;
+		text-align: center;
+		color: white;
+		@include font($dpr, 16px , #fff , 20px);
+
+	} 
+	table tbody tr td {
+		background-color: #f8f8f8;
+		border: 5px solid white;
+		border-radius: 5px;
+		text-align: center;
+		vertical-align: middle;
+		@include font($dpr, 16px , #666666 , 20px);
+
+
+	} 
+	table tbody tr td:not(:first-child) {
+		min-width: 186px;
+	}
+	table tbody tr:hover  td {
+		background-color: black !important;
+		color: white;
+	} 
+
+	table tbody tr td:first-child {
+    padding-left: 21px;
+    padding-right: 21px;
+}
+}

@@ -1,0 +1,29 @@
+.sectionTop {
+	&__boxes{
+		display: flex;
+		justify-content:center;
+
+	}
+	&__box{
+		width: 10px;
+		height: 10px;
+		background-color: #0068b3;
+		margin: 0 6px 15px 6px;
+
+	}
+	&__title{
+		display: flex;
+		justify-content:center;
+		align-items:center;
+
+	}
+	&__title-line{
+		width: 62px;
+		height: 1px;
+		background-color: #cccccc;
+
+	}
+	&__title-text{
+		margin: 0 27px;
+	}
+}

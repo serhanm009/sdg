@@ -1,0 +1,50 @@
+.DIMDetailsTop{
+	.card{
+		@include respondmax(lg){
+			display: block;
+			text-align: center;
+		}
+		border:none;
+		.card-image{
+			@include respondmax(lg){
+				margin-bottom: 20px;
+			}
+		}
+		&__title {
+			@include font($dprB, 26px , #0068b3 , 28px);
+		}
+		&-block {
+			padding-left: 30px;
+			@include respondmax(sm){
+				padding: 0;
+			}
+		}
+		&__text {
+			@include font($dprB, 16px , #4c4c4c , 24px);
+			margin-top: 23px;
+			text-align: justify;
+			margin-bottom: 42px;
+		}
+		&__link {
+			padding: 15px 38px;
+			background-color: #0068b3;
+			color: white;
+			
+			border:none;
+			border-radius: 57px;
+			&:hover {
+				text-decoration: none;
+			}
+
+		}
+
+	}	
+	&__img {
+		width: 350px;
+		height: 325px;
+		@include respondmax(sm){
+			width: 279px;
+		}
+	}
+}
+

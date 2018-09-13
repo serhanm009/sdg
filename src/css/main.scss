@@ -1,0 +1,41 @@
+@import "abstracts/bt5start";
+  
+@import "abstracts/function";
+@import "abstracts/mixin";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/fonts";
+
+@import "components/about"; 
+@import "components/sectionTop"; 
+@import "components/form"; 
+@import "components/DIMDetailsTop"; 
+@import "components/success"; 
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/faydaliLinkler";
+@import "layout/headerFirst";
+@import "layout/headerSecond";
+@import "layout/menu";
+@import "layout/teklif";
+
+@import "page/contact";
+@import "page/haqqimizda";
+@import "page/hqqmzdaSura";
+@import "page/katiblik";
+@import "page/isciQruplar";
+@import "page/musabiqeler";
+@import "page/qanunvericilik";
+@import "page/dayaniqliinkishaf";
+@import "page/DIMdetails1";
+@import "page/error";
+
+
+
+@import "abstracts/bt5end";
+    

@@ -1,0 +1,15 @@
+	.faydaliLinkler{
+		.carousel_item{
+			margin-right: 30px;
+			margin-top: 50px;
+			margin-bottom: 124px;
+			@include respondmax(sm) {
+				margin-right: 0;
+			}
+		}
+		&__title{
+			@include respondmax(sm){
+				font-size: 10px;
+			}
+		}
+	}

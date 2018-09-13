@@ -1,0 +1,35 @@
+.teklif {
+	.form__top {
+		height: 37px;
+		background-color: #0068b3;
+	}
+	&__title{
+		margin: 65px 0 0 0;
+	}
+	&__box{
+		box-shadow: 0px 7px 18px grey;
+		margin: 90px 0 120px 0;
+
+
+	}
+	&__form {
+		padding: 0 50px 0 50px;
+
+
+	}
+	&__btn {
+		margin-left: auto !important;
+		margin-top: 64px !important;
+		margin-bottom: 50px !important;
+
+	}
+	&__input{
+		@include respondmax(md){
+			display: inline-block;
+		}
+	}
+	&__textarea{
+		padding: 0;
+	}
+
+}
