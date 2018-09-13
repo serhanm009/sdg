@@ -265,7 +265,7 @@ body {
     margin-bottom: 49px; }
     @media (max-width: 575px) {
       .success__title {
-        font-size: 18px; } }
+        font-size: 23px; } }
   .success__text {
     font-family: DINPro, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -278,6 +278,15 @@ body {
     font-size: 16px;
     color: #666666;
     line-height: 20px; }
+  .success__link {
+    font-family: DINPro, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #0068b3;
+    line-height: 36px;
+    text-align: center;
+    display: block; }
+    .success__link:hover {
+      text-decoration: none; }
 
 .footer__sep {
   display: -webkit-box;
