@@ -1146,6 +1146,21 @@ body {
     color: #4c4c4c;
     line-height: 24px;
     margin: 80px 0; }
+  .yssf__text {
+    font-family: DINPro, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+    text-align: justify; }
+  .yssf__list {
+    margin-top: 96px; }
+  .yssf__card {
+    margin-top: 60px; }
+  .yssf__links {
+    color: #0068b3;
+    padding-left: 20px; }
+  .yssf__item {
+    margin-bottom: 10px; }
 
 /*! WEBCODER - http://webcoder.az/ Mehemmed Memmedli  16 Aprel 2018  https://github.com/nemerki */
 /* ==========================================================================
