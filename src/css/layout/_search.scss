@@ -1,0 +1,39 @@
+.search2{
+	padding: 95px 0;
+	&__title{
+		@include font($dpr, 36px , #0068b3 , 36px);
+		text-transform: uppercase;
+		margin-bottom: 45px;
+		
+	}
+	&__inputGroup{
+		display: flex;
+		color: #c2c2c2;
+
+	}
+	&__btn{
+		border: none;
+		background-color: transparent;
+		margin-left: -32px;
+		margin-top: 5px;
+		color: #c2c2c2;
+		font-size: 16px;
+		&:focus{
+			outline: 0;
+		}
+	}
+	&__input{
+		width: 100%;
+		padding: 10px;
+	}
+	&__nav {
+		margin-bottom: 43px;
+	}
+	&__result {
+		@include font($dpr, 16px , #666666 , 36px);
+
+	}
+	&__val {
+		color: #0068b3;
+	}
+}

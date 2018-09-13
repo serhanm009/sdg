@@ -30,6 +30,17 @@
 			text-decoration: none;
 		}
 	}
+	.success1__title {
+		color: #ff7200;
+		display: flex;
+		justify-content: center;
+		@include respondmax(sm){
+			font-size: 32px;
+		}
+	}
+	.success1__link {
+		color: #ff7200;
+	}
 }
 
 

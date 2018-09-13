@@ -287,6 +287,23 @@ body {
     display: block; }
     .success__link:hover {
       text-decoration: none; }
+  .success .success1__title {
+    color: #ff7200;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    @media (max-width: 575px) {
+      .success .success1__title {
+        font-size: 32px; } }
+  .success .success1__link {
+    color: #ff7200; }
 
 .footer__sep {
   display: -webkit-box;
@@ -726,6 +743,44 @@ body {
 .teklif__textarea {
   padding: 0; }
 
+.search2 {
+  padding: 95px 0; }
+  .search2__title {
+    font-family: DINPro, Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #0068b3;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 45px; }
+  .search2__inputGroup {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #c2c2c2; }
+  .search2__btn {
+    border: none;
+    background-color: transparent;
+    margin-left: -32px;
+    margin-top: 5px;
+    color: #c2c2c2;
+    font-size: 16px; }
+    .search2__btn:focus {
+      outline: 0; }
+  .search2__input {
+    width: 100%;
+    padding: 10px; }
+  .search2__nav {
+    margin-bottom: 43px; }
+  .search2__result {
+    font-family: DINPro, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #666666;
+    line-height: 36px; }
+  .search2__val {
+    color: #0068b3; }
+
 .contact__content {
   position: relative;
   top: -260px;
@@ -1082,6 +1137,15 @@ body {
     font-size: 16px;
     color: #666666;
     line-height: 20px; }
+
+.yssf {
+  padding: 90px 0 120px 0; }
+  .yssf__title {
+    font-family: DINPro, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #4c4c4c;
+    line-height: 24px;
+    margin: 80px 0; }
 
 /*! WEBCODER - http://webcoder.az/ Mehemmed Memmedli  16 Aprel 2018  https://github.com/nemerki */
 /* ==========================================================================

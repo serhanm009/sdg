@@ -1,0 +1,10 @@
+.yssf{
+	padding: 90px 0 120px 0;
+	&__img {
+
+	}
+	&__title{
+		@include font($dpr, 24px , #4c4c4c , 24px);
+		margin: 80px 0;
+	}
+}
